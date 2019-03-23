@@ -8,5 +8,7 @@ use App\Http\Controllers\Controller;
 
 class MathGeneratorController extends Controller
 {
-    //
+    public function count_that() {
+        return 45+21;
+    }
 }
