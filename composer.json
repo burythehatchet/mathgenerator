@@ -1,5 +1,13 @@
 {
     "name": "lld21/mathgenerator",
     "minimum-stability": "dev",
-    "require": {}
+    "require": {},
+    "autoload": {
+        "classmap": [
+            "src/"
+        ],
+        "psr-4": {
+            "Burythehatchet\\MathGenerator\\": "src/"
+        }
+    }
 }
